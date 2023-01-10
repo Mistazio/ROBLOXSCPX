@@ -1,0 +1,234 @@
+--do not execute anything below. it will break your game. make a loadstring instead.
+
+local MainGuis = Instance.new("ScreenGui")
+local Frame1 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ColorFrame1 = Instance.new("UIGradient")
+local LOGOSCPHUB = Instance.new("ImageLabel")
+local Version = Instance.new("TextLabel")
+local InfiniteJumprar = Instance.new("TextButton")
+local Flyrar = Instance.new("TextButton")
+local Getusersrar = Instance.new("TextButton")
+local DestroyParentrar = Instance.new("TextButton")
+local Connectr6rar = Instance.new("TextButton")
+local _268BYPASSRAR = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
+local Frame = Instance.new("Frame")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+
+--Properties:
+
+MainGuis.Name = "MainGuis"
+MainGuis.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+MainGuis.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame1.Name = "Frame1"
+Frame1.Parent = MainGuis
+Frame1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame1.Position = UDim2.new(0.287191808, 0, 0.153846145, 0)
+Frame1.Size = UDim2.new(0, 494, 0, 301)
+Frame1.Visible = false
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = Frame1
+
+ColorFrame1.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(21, 21, 21)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(11, 11, 11))}
+ColorFrame1.Name = "ColorFrame1"
+ColorFrame1.Parent = Frame1
+
+LOGOSCPHUB.Name = "LOGO-SCPHUB"
+LOGOSCPHUB.Parent = Frame1
+LOGOSCPHUB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LOGOSCPHUB.BackgroundTransparency = 33.000
+LOGOSCPHUB.Position = UDim2.new(0.0141700404, 0, 0.0232558139, 0)
+LOGOSCPHUB.Size = UDim2.new(0, 46, 0, 44)
+LOGOSCPHUB.Image = "http://www.roblox.com/asset/?id=9633745971"
+
+Version.Name = "Version."
+Version.Parent = Frame1
+Version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Version.BackgroundTransparency = 3.000
+Version.Position = UDim2.new(0.297570825, 0, 0.0232558139, 0)
+Version.Size = UDim2.new(0, 200, 0, 14)
+Version.Font = Enum.Font.Gotham
+Version.Text = "SCP X version a0.01"
+Version.TextColor3 = Color3.fromRGB(90, 90, 90)
+Version.TextSize = 14.000
+
+InfiniteJumprar.Name = "InfiniteJump.rar"
+InfiniteJumprar.Parent = Frame1
+InfiniteJumprar.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+InfiniteJumprar.BorderColor3 = Color3.fromRGB(152, 152, 152)
+InfiniteJumprar.Position = UDim2.new(0.18825911, 0, 0.880398691, 0)
+InfiniteJumprar.Size = UDim2.new(0, 85, 0, 27)
+InfiniteJumprar.Font = Enum.Font.Gotham
+InfiniteJumprar.Text = "Infinite jump"
+InfiniteJumprar.TextColor3 = Color3.fromRGB(124, 124, 124)
+InfiniteJumprar.TextSize = 14.000
+
+Flyrar.Name = "Fly.rar"
+Flyrar.Parent = Frame1
+Flyrar.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Flyrar.BorderColor3 = Color3.fromRGB(152, 152, 152)
+Flyrar.Position = UDim2.new(0.360323876, 0, 0.880398691, 0)
+Flyrar.Size = UDim2.new(0, 43, 0, 27)
+Flyrar.Font = Enum.Font.Gotham
+Flyrar.Text = "Fly"
+Flyrar.TextColor3 = Color3.fromRGB(124, 124, 124)
+Flyrar.TextSize = 14.000
+
+Getusersrar.Name = "Get?=users.rar"
+Getusersrar.Parent = Frame1
+Getusersrar.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Getusersrar.BorderColor3 = Color3.fromRGB(152, 152, 152)
+Getusersrar.Position = UDim2.new(0.447368443, 0, 0.880398691, 0)
+Getusersrar.Size = UDim2.new(0, 85, 0, 27)
+Getusersrar.Font = Enum.Font.Gotham
+Getusersrar.Text = "Get Users"
+Getusersrar.TextColor3 = Color3.fromRGB(124, 124, 124)
+Getusersrar.TextSize = 14.000
+
+DestroyParentrar.Name = "DestroyParent.rar"
+DestroyParentrar.Parent = Frame1
+DestroyParentrar.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+DestroyParentrar.BorderColor3 = Color3.fromRGB(152, 152, 152)
+DestroyParentrar.Position = UDim2.new(0.619433224, 0, 0.880398691, 0)
+DestroyParentrar.Size = UDim2.new(0, 85, 0, 27)
+DestroyParentrar.Font = Enum.Font.Gotham
+DestroyParentrar.Text = "DestroyGui"
+DestroyParentrar.TextColor3 = Color3.fromRGB(124, 124, 124)
+DestroyParentrar.TextSize = 14.000
+
+Connectr6rar.Name = "Connectr6.rar"
+Connectr6rar.Parent = Frame1
+Connectr6rar.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Connectr6rar.BorderColor3 = Color3.fromRGB(152, 152, 152)
+Connectr6rar.Position = UDim2.new(0.791498005, 0, 0.880398691, 0)
+Connectr6rar.Size = UDim2.new(0, 85, 0, 27)
+Connectr6rar.Font = Enum.Font.Gotham
+Connectr6rar.Text = "Connect"
+Connectr6rar.TextColor3 = Color3.fromRGB(124, 124, 124)
+Connectr6rar.TextSize = 14.000
+
+_268BYPASSRAR.Name = "268BYPASS.RAR"
+_268BYPASSRAR.Parent = Frame1
+_268BYPASSRAR.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+_268BYPASSRAR.BorderColor3 = Color3.fromRGB(152, 152, 152)
+_268BYPASSRAR.Position = UDim2.new(0.0141700404, 0, 0.880398691, 0)
+_268BYPASSRAR.Size = UDim2.new(0, 85, 0, 27)
+_268BYPASSRAR.Font = Enum.Font.Gotham
+_268BYPASSRAR.Text = "268 bypass"
+_268BYPASSRAR.TextColor3 = Color3.fromRGB(124, 124, 124)
+_268BYPASSRAR.TextSize = 14.000
+
+TextBox.Parent = Frame1
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 3.000
+TextBox.Position = UDim2.new(0.127530366, 0, 0.116279073, 0)
+TextBox.Size = UDim2.new(0, 413, 0, 219)
+TextBox.Font = Enum.Font.Bodoni
+TextBox.Text = "until the gui is finished this textbox is here. store your shit i guess"
+TextBox.TextColor3 = Color3.fromRGB(74, 74, 74)
+TextBox.TextSize = 23.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+Frame.Parent = MainGuis
+Frame.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Frame.Position = UDim2.new(0.0825688094, 0, 0.226923078, 0)
+Frame.Size = UDim2.new(0, 848, 0, 244)
+
+TextBox_2.Parent = Frame
+TextBox_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.Position = UDim2.new(0.389150947, 0, 0.307213128, 0)
+TextBox_2.Size = UDim2.new(0, 188, 0, 29)
+TextBox_2.Font = Enum.Font.Unknown
+TextBox_2.Text = "type here"
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+
+UICorner_2.Parent = TextBox_2
+
+UICorner_3.Parent = Frame
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 3.000
+TextLabel.Position = UDim2.new(0.207547173, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 486, 0, 33)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "ScpCaptcha"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 3.000
+TextLabel_2.Position = UDim2.new(0.207547173, 0, 0.135245904, 0)
+TextLabel_2.Size = UDim2.new(0, 486, 0, 33)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "INSTRUCTIONS - Type \"SCPxV1\" into the box and click enter"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 3.000
+TextLabel_3.Position = UDim2.new(0.207547173, 0, 0.94262296, 0)
+TextLabel_3.Size = UDim2.new(0, 486, 0, 14)
+TextLabel_3.Font = Enum.Font.Unknown
+TextLabel_3.Text = "SCP's captcha system V1.6"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+-- Scripts:
+
+local function KQZO_fake_script() -- Frame1.Frame1Drag 
+	local script = Instance.new('LocalScript', Frame1)
+
+	local b=game:GetService("UserInputService")
+	function dragify(c)dragToggle=nil
+	local d=0;dragInput=nil;dragStart=nil;local _a=nil
+	function updateInput(aa)local ba=aa.Position-dragStart
+	local ca=UDim2.new(startPos.X.Scale,
+	startPos.X.Offset+ba.X,startPos.Y.Scale,startPos.Y.Offset+ba.Y)
+	game:GetService("TweenService"):Create(c,TweenInfo.new(0.25),{Position=ca}):Play()end
+	c.InputBegan:Connect(function(aa)
+	if
+	
+	(
+	aa.UserInputType==Enum.UserInputType.MouseButton1 or aa.UserInputType==Enum.UserInputType.Touch)and b:GetFocusedTextBox()==nil then dragToggle=true;dragStart=aa.Position;startPos=c.Position
+	aa.Changed:Connect(function()
+	if
+	aa.UserInputState==Enum.UserInputState.End then dragToggle=false end end)end end)
+	c.InputChanged:Connect(function(aa)if
+	
+	aa.UserInputType==Enum.UserInputType.MouseMovement or aa.UserInputType==Enum.UserInputType.Touch then dragInput=aa end end)
+	game:GetService("UserInputService").InputChanged:Connect(function(aa)
+	if
+	aa==dragInput and dragToggle then updateInput(aa)end end)end;dragify(script.Parent)
+end
+coroutine.wrap(KQZO_fake_script)()
+local function HMPPAK_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local key = "SCPxV1"
+	local TextBox = script.parent.TextBox
+	local c
+	c = TextBox.FocusLost:Connect(function()
+		if TextBox.Text == key then
+			c:Disconnect()
+			script.Parent.Parent.Frame1.Visible = true
+			script.Parent.Visible = false
+		end
+	end)
+end
+coroutine.wrap(HMPPAK_fake_script)()
